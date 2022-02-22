@@ -1,0 +1,11 @@
+framework module flutter_checkout_payment {
+  umbrella header "flutter_checkout_payment-umbrella.h"
+
+  export *
+  module * { export * }
+}
+
+module flutter_checkout_payment.Swift {
+    header "flutter_checkout_payment-Swift.h"
+    requires objc
+}
