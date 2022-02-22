@@ -14,7 +14,7 @@ class Checkout {
     if (isSandbox!) {
       _baseUrl = "api.sandbox.checkout.com";
     } else {
-      _baseUrl = "api.checkout.com/";
+      _baseUrl = "api.checkout.com";
     }
   }
 
